@@ -1,0 +1,262 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/*CSS classes for team colors */
+.team-ATL {
+  background-color: #e03a3e; /* Atlanta Hawks color */
+  color: white; /* Text color for readability */
+}
+
+.team-BOS {
+  background-color: #007a33; /* Boston Celtics color */
+  color: white;
+}
+
+.team-BKN {
+  background-color: #000000; /* Brooklyn Nets color */
+  color: white;
+}
+
+.team-CHA {
+  background-color: #00788c; /* Charlotte Hornets color */
+  color: white;
+}
+
+.team-CHI {
+  background-color: #ce1141; /* Chicago Bulls color */
+  color: white;
+}
+
+.team-CLE {
+  background-color: #860038; /* Cleveland Cavaliers color */
+  color: white;
+}
+
+.team-DAL {
+  background-color: #00538c; /* Dallas Mavericks color */
+  color: white;
+}
+
+.team-DEN {
+  background-color: #0e2240; /* Denver Nuggets color */
+  color: white;
+}
+
+.team-DET {
+  background-color: #c8102e; /* Detroit Pistons color */
+  color: white;
+}
+
+.team-GSW {
+  background-color: #1d428a; /* Golden State Warriors color */
+  color: white;
+}
+
+.team-HOU {
+  background-color: #ce1141; /* Houston Rockets color */
+  color: white;
+}
+
+.team-IND {
+  background-color: #fdbb30; /* Indiana Pacers color */
+  color: white;
+}
+
+.team-LAC {
+  background-color: #1d428a; /* LA Clippers color */
+  color: white;
+}
+
+.team-LAL {
+  background-color: #552583; /* Los Angeles Lakers color */
+  color: white;
+}
+
+.team-MEM {
+  background-color: #5d76a9; /* Memphis Grizzlies color */
+  color: white;
+}
+
+.team-MIA {
+  background-color: #98002e; /* Miami Heat color */
+  color: white;
+}
+
+.team-MIL {
+  background-color: #00471b; /* Milwaukee Bucks color */
+  color: white;
+}
+
+.team-MIN {
+  background-color: #005083; /* Minnesota Timberwolves color */
+  color: white;
+}
+
+.team-NOP {
+  background-color: #0c2340; /* New Orleans Pelicans color */
+  color: white;
+}
+
+.team-NYK {
+  background-color: #006bb6; /* New York Knicks color */
+  color: white;
+}
+
+.team-OKC {
+  background-color: #007ac1; /* Oklahoma City Thunder color */
+  color: white;
+}
+
+.team-ORL {
+  background-color: #0077c0; /* Orlando Magic color */
+  color: white;
+}
+
+.team-PHI {
+  background-color: #006bb6; /* Philadelphia 76ers color */
+  color: white;
+}
+
+.team-PHX {
+  background-color: #1d1160; /* Phoenix Suns color */
+  color: white;
+}
+
+.team-POR {
+  background-color: #e03a3e; /* Portland Trail Blazers color */
+  color: white;
+}
+
+.team-SAC {
+  background-color: #5a2d81; /* Sacramento Kings color */
+  color: white;
+}
+
+.team-SAS {
+  background-color: #c4ced4; /* San Antonio Spurs color */
+  color: white;
+}
+
+.team-TOR {
+  background-color: #ce1141; /* Toronto Raptors color */
+  color: white;
+}
+
+.team-UTA {
+  background-color: #002b5c; /* Utah Jazz color */
+  color: white;
+}
+
+.team-WAS {
+  background-color: #e31837; /* Washington Wizards color */
+  color: white;
+}
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 48%; /* Set the width to fit two cards in a row */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.player-info {
+  font-weight: bold;
+  flex: 1;
+  margin: 10px;
+  justify-content: center;
+
+  padding: 10px;
+
+  background-color: #fff;
+  display: flex;
+}
+
+.player-stats {
+  font-family: monospace;
+}
+
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.player-stats-card {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+.player-stats-card button {
+  background-color: #333; 
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.player-stats-card button:hover {
+  background-color: #555; 
+}
+
+
+.player-stats-card h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+
+.player-stats-card pre {
+  font-family: monospace;
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute; 
+  top: 50%; 
+  left: 0; 
+  transform: translateY(-50%); 
+}
+
+.list-container{
+  display:flex;
+}
