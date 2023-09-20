@@ -116,9 +116,11 @@ const SearchComponent: React.FC = () => {
 
   return (
     <div className="container">
+      <h1 className="title"> NBA STATS </h1>
       <div className="input">
         <input
           type="text"
+          placeholder="Enter a player name"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
